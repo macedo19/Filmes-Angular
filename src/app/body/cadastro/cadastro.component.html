@@ -1,0 +1,22 @@
+<div class="auth-container">
+  <h2>Registrar</h2>
+  <form action="/" method="POST">
+    <div class="form-control">
+      <label for="name">Filme/Série</label>
+      <input type="text" name="name" placeholder="Nome do filme/série:" [(ngModel)]="catalogo.title" required>
+    </div>
+    <div class="form-control">
+      <label for="imagem">Imagem</label>
+      <input type="text" name="imagem" placeholder="Url da imagem:" [(ngModel)]="catalogo.url" required>
+    </div>
+    <div class="form-control">
+      <label for="imagem">Gênero</label>
+      <input type="text" name="genero" placeholder="Qual é o genêro? " [(ngModel)]="catalogo.genero" required>
+    </div>
+    <div class="form-control">
+      <label for="confirmpassword">Descrição</label>
+      <input type="text" name="descricao" placeholder="Descrição:" [(ngModel)]="catalogo.description" required>
+    </div>
+    <input type="submit" value="Cadastrar" (click)="incluir()">
+  </form>
+</div>

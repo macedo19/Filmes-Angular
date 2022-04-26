@@ -1,0 +1,66 @@
+.container {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  cursor: pointer;
+  display: block !important;
+}
+
+.card img {
+  transition: 0.5s;
+}
+
+.container .card h1 {
+  font-size: 2rem;
+}
+
+.card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card .content p {
+  color: #666;
+  transition: 0.5s;
+}
+
+
+
+.card:hover {
+  background-color: #ccc;
+  color: #FFF;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #dc2e69;
+  border-color: #dc2e69;
+}
+
+
+/* .card:hover img {
+
+
+} */
+
+.card:hover .content p {
+  color: #FFF;
+}
+
+.card:hover .content a {
+  color: #000;
+  background-color: #FFF;
+}
