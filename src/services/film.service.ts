@@ -35,6 +35,12 @@ export class FilmService{
   atualizarFilm(film : Film) : Observable<any>{
     return this.http.post(this.URL + "/update" , film)
   }
+
+  deletarFilms(id: number) : Observable<any>{
+    console.log(this.URL)
+    console.log("teste")
+    return this.http.post(this.URL + "/editar/"+id+"/delete", id)
+  }
 }
 
 

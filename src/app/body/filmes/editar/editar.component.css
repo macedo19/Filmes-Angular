@@ -11,7 +11,7 @@
 
 .auth-container h2 {
   margin-bottom: 1em;
-  color: #FFF;
+  color: rgb(185, 185, 185);
   border-left: 4px solid #CCC;
   padding: 0.3em;
   width: 100px;
@@ -45,7 +45,7 @@
   padding: 1em;
 }
 
-form input[type="submit"],
+.edit,
 .btn {
   background-color: transparent;
   color: #CCC;
@@ -63,8 +63,8 @@ form input[type="submit"],
 
 
 /* EFEITO */
-form input[type="submit"]:hover,
-.btn:hover {
+.edit:hover,
+.btn:hover{
   background-color: #CCC;
   color: #FFFF;
   border: none;
@@ -82,4 +82,25 @@ form input[type="submit"]:hover,
   font-weight: bold;
   margin-bottom: 0.5em;
   margin-left: 10px;
+}
+
+.ex{
+  color: red;
+  background-color: transparent;
+  margin-left: 165px;
+  border: none;
+  padding: 0.5em 1.2em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.ex:hover {
+  background-color: #CCC;
+  color: rgb(223, 0, 0);
+  border: none;
 }

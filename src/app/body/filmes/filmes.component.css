@@ -20,6 +20,7 @@
   text-align: center;
   cursor: pointer;
   display: block !important;
+  width: 200px;
 }
 
 .card img {
@@ -43,11 +44,11 @@
 
 
 .card:hover {
-  background-color: #ccc;
+  background-color: rgb(204, 203, 203);
   color: #FFF;
   margin-top: -30px;
-  box-shadow: 2px 20px 25px #dc2e69;
-  border-color: #dc2e69;
+  box-shadow: 2px 20px 25px #792edc;
+  border-color: #542edc;
 }
 
 
@@ -63,4 +64,16 @@
 .card:hover .content a {
   color: #000;
   background-color: #FFF;
+}
+
+.flex{
+  display: flex;
+}
+
+.description{
+  font-size: small;
+}
+
+img{
+  height: 120px;
 }

@@ -26,6 +26,12 @@ export class EditarComponent implements OnInit {
   saveFilm(){
     this.catalogo.atualizarFilm(this.film).subscribe(() => {
       this.router.navigate(['/listfilmes']);
-});
-}
+    });
+  }
+  removeFilms(id: number){
+    console.log(id)
+    this.catalogo.deletarFilms(id).subscribe(() => {
+      this.router.navigate(['/listfilmes']);
+    });
+  }
 }

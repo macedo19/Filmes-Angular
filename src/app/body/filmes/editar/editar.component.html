@@ -17,9 +17,10 @@
       <label for="confirmpassword">Descrição</label>
       <input type="text" name="descricao" placeholder="Descrição:" [(ngModel)]="film.description">
     </div>
-    <input type="submit" value="Salvar" (click)="saveFilm()">
-    <button routerLink="/listfilmes">
+    <input class="edit" type="submit" value="Salvar" (click)="saveFilm()">
+    <button class="btn" routerLink="/listfilmes">
       Cancelar
     </button>
+    <input class="ex" type="submit" value="Excluir" (click)="removeFilms(film.id)">
   </form>
 </div>

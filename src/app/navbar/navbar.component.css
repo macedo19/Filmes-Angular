@@ -1,5 +1,5 @@
 .nav {
-  padding: 1.2em 1.4em;
+  padding: 1.5em 1.4em;
   /* 1.2 superior e inferior, 1.4 nas laterias. Centraliza melhor o conteudo  */
   /* Afastar os conteudos que vierem embaixo da navbar  */
   display: flex;
