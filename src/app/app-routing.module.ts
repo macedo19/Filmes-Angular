@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: "login",component: LoginComponent},
   { path: "register",component: RegisterComponent},
   { path: "cadastros",component: CadastroComponent},
-  { path: "listfilmes",component: FilmesComponent},
+  { path: "filmes",component: FilmesComponent},
   { path: "editar/:id",component: EditarComponent}
 ]
 
